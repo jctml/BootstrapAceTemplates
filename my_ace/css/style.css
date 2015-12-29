@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    font-family: arial;
+    font-size: 12px;
+    background: #f7f7f7;
+    overflow-x: hidden;
+    color: #3B3E40;
+    line-height: 1px;
+}
+
+input textarea{
+    padding:10px;
+    font-size: 12px;
+    font-family: Arial;
+    color:#606060;
+    border:1px solid #e3e3e3;
+    background: #fff;
+    width: 100%;
+    margin: 0 0 15px 0;
+
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body.login{
+    background: #3b3e40;
+}
+
+.login section{
+    text-align: center;
+    width: 300px;
+    margin: 200px auto 0 auto;
+}
+
+.login input{
+    border: 1px solid #323537;
+}
