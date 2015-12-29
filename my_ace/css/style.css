@@ -10,6 +10,12 @@ body{
     line-height: 1px;
 }
 
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+
+.font-brush-std{
+    font-family: "Brush Script Std", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 input textarea{
     padding:10px;
     font-size: 12px;
@@ -40,4 +46,13 @@ body.login{
 
 .login input{
     border: 1px solid #323537;
+}
+
+.border-radius4{
+    border-radius: 4px;
+}
+
+.icon-logo{
+    font-size: 61px;
+    margin-top: 10%;
 }
